@@ -14,11 +14,9 @@ public class StopState implements State{
       System.out.println("Player is in stop state");
       context.setState(this);	
    }
-
    public String toString(){
       return "Stop State";
    }
 
-    
-  
+ 
 }
