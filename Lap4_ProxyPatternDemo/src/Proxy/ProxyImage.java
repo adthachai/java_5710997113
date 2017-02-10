@@ -9,6 +9,10 @@ package Proxy;
  *
  * @author BANK
  */
-public class ProxyImage {
-    
+public class ProxyImage implements Image{
+    public RealImage realImage;
+     public String fileName;
+     public ProxyImage(String fileName){}
+      public void display(){}
+      
 }

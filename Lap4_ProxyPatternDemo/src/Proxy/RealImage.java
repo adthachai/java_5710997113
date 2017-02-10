@@ -9,6 +9,9 @@ package Proxy;
  *
  * @author BANK
  */
-public class RealImage {
-    
+public class RealImage implements Image{
+    public String fileName;
+    public RealImage(String fileName){}
+    public void display() {}
+    public void loadFromDisk(String fileName){}
 }

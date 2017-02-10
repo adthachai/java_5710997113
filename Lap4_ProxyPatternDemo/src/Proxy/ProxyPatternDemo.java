@@ -10,5 +10,5 @@ package Proxy;
  * @author BANK
  */
 public class ProxyPatternDemo {
-    
+    public static void main(String[] args){}
 }

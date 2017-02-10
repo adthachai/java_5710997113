@@ -9,6 +9,6 @@ package Proxy;
  *
  * @author BANK
  */
-public class Image {
+public interface Image {
     
 }
